@@ -18,7 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('movie/', include(('movie.urls', 'file'), namespace=' movie')),
-    path('person/', include(('person.urls', 'file'), namespace='person')),
-    path('users/', include(('users.urls', 'file'), namespace='users')),
+    path('movie/', include(('modules.movie.urls', 'file'), namespace=' movie')),
+    path('person/', include(('modules.person.urls', 'file'), namespace='person')),
+    path('users/', include(('modules.users.urls', 'file'), namespace='users')),
 ]
