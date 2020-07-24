@@ -36,7 +36,7 @@
 4. Create super user
 
     `python manage.py createsuperuser`
-3. Run Django
+5. Run Django
 
     `python manage.py runserver`
 ---
